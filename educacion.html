@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta  name="author" content="Christian Rivera Leon">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
+	 	maximum-scale=1.0, minimum-scale=1.0">
+		<title>Educación</title>
+	</head>
+
+	<body>
+
+		<div>
+			<img src="imagenes/logoRC.svg" alt="Logotipo"  title="Logo" width="500"  / >  <!--logo -->
+		</div>
+
+		<div>
+			<H1> Resumen Curricular </H1>
+			<H2>Datos personales</H2>
+			<H3>Christia Rivera</H3>
+			<H3>Fecha nacimiento: 07 de febrero de 1967</H3>
+			<h3>Lugar: Ciudad de San Fernando. Chile</h3>
+		</div>
+		
+			<!-- <section> -->
+            <!-- <nav> -->
+		<div>
+			<h2>Menu</h2>
+			<a href="index.html">Inicio</a>
+			<a href="educacion.html">Educación</a>
+			<a href="experiencia.html">Experiencia</a>
+		</div>
+
+		<h2>Educación</h2>
+	
+		<table>
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>Culminó</th>
+			</tr>
+			
+			<tr>
+				<td>1985</td>
+				<td>Inacap</td>
+				<td>Santigo</td>
+				<td>SI</td>
+			</tr>
+
+			<tr>
+				<td>2003</td>
+				<td>U. de los Lagos</td>
+				<td>San Fernando</td>
+				<td>SI</td>
+			</tr>
+
+		</table>
+
+		<form action=""  method="POST">
+
+			<h2>Agregar Estudios</h2>
+
+			<label for="año">Año:</label> <!-- relacionamos el label al select año-->
+
+			<select name="año" id="año">         <!--select -->
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+			</select>
+
+			<br>
+			<label for="institucion">Institución</label>
+				<input type="text" 	placeholder="campo obligatorio"  maxlength="30" required >    
+			<br>
+			<label for="Lugar">Lugar</label>
+				<input type="text" 	placeholder="campo obligatorio"  maxlength="30" required >    
+			<br>
+			<input type="submit" value="Enviar" name="Estudios">
+
+		</form>
+		
+		<!-- <footer> -->
+		<div>
+			<h5>Christian Rivera León</h5>
+			<h5>christian.rivera.león@gmail.com</h5>
+			<h5>Ciudad de San Fernando. Valle de Colchagua</h5>
+			<h5>Sexta régión. Chile</h5>
+		</div>
+	</body>
+</html>
